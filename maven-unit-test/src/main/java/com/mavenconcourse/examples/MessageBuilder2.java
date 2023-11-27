@@ -1,6 +1,6 @@
 package com.mkyong.examples;
 
-public class MessageBuilder {
+public class MessageBuilder2 {
 
     public static String getHelloWorld(){
         return "Testing From Message Builder";
