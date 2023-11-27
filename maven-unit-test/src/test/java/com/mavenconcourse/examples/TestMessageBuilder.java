@@ -9,8 +9,7 @@ public class TestMessageBuilder {
     @Test
     public void testHelloWorld() {
         System.out.println(" Testing a execution");
-        assertEquals("Testing Response From Test Builder ...", MessageBuilder.getHelloWorld());
-    }
+        assertEquals("hello world", MessageBuilder.getHelloWorld());
 
     @Test
     public void testNumber10() {
