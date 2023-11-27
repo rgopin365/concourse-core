@@ -7,8 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestMessageBuilder {
 
     @Test
-    public void testHelloWorld() {
-        System.out.println(" Testing a execution");
+    public void testHelloWorld() {        
         assertEquals("hello world", MessageBuilder.getHelloWorld());
         }
 
